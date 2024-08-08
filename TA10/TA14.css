@@ -1,0 +1,7 @@
+div p{
+    display: flex;
+    background-color: yellow;
+    color: red;
+    font-size: 20px;
+    justify-content: center;
+}
