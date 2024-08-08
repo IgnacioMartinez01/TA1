@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+</head>
+<body>
+    <h1>Encuesta</h1>
+    <form action="/submit-encuesta" method="post">
+        <!-- Pregunta con opciones de selección múltiple -->
+        <label >¿Que tal nuestro servicio?</label>
+        <select>
+            <option>Muy bueno</option>
+            <option>Bueno</option>
+            <option>Correcto</option>
+            <option>Malo</option>
+            <option>Muy malo</option>
+        </select>
+            <p>¿Cómo llegaste a nosotros?</p>
+            <input type="radio">
+            <label>Internet</label><br>
+            <input type="radio">
+            <label>Recomendación de un amigo</label><br>
+            <input type="radio">
+            <label>Publicidad</label><br>
+            <input type="radio">
+            <label>Otro</label>
+            <br></br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
