@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplicación de Funciones</title>
+    
+</head>
+<body>
+    <h1>Aplicación de Funciones</h1>
+    <form id="taskForm">
+        <label for="taskSelect">Selecciona una tarea:</label>
+        <select id="taskSelect">
+            <option value="generatePassword">Generar Contraseña</option>
+            <option value="findTheOldest">Encontrar la Persona más Vieja</option>
+            <option value="getOdds">Filtrar Números Impares</option>
+            <option value="getSum">Calcular la Suma de Números</option>
+            <option value="sumAll">Sumar Números entre Dos Valores</option>
+            <option value="convertToCelsius">Convertir a Celsius</option>
+            <option value="convertToFahrenheit">Convertir a Fahrenheit</option>
+            <option value="leapYears">Determinar Año Bisiesto</option>
+            <option value="duplicates">Contar Elementos Duplicados</option>
+        </select>
+        <br>
+        <div id="generatePasswordFields" class="taskFields">
+            <label for="passwordLength">Longitud de la contraseña:</label>
+            <input type="number" id="passwordLength" min="8" value="8" required>
+        </div>
+
+        <div id="findTheOldestFields" class="taskFields">
+            <label for="peopleInput">Ingresa personas (nombre, edad) separados por comas:</label>
+            <input type="text" id="peopleInput" placeholder="Ej: Juan,45,Ana,67,Carlos,38" required>
+        </div>
+
+        <div id="getOddsFields" class="taskFields">
+            <label for="oddsInput">Ingresa números separados por comas:</label>
+            <input type="text" id="oddsInput" placeholder="Ej: 1,2,3,4,5" required>
+        </div>
+
+        <div id="getSumFields" class="taskFields">
+            <label for="sumInput">Ingresa números separados por comas:</label>
+            <input type="text" id="sumInput" placeholder="Ej: 1,2,3,4,5" required>
+        </div>
+
+        <div id="sumAllFields" class="taskFields">
+            <label for="sumA">Número A:</label>
+            <input type="number" id="sumA" required>
+            <label for="sumB">Número B:</label>
+            <input type="number" id="sumB" required>
+        </div>
+
+        <div id="convertToCelsiusFields" class="taskFields">
+            <label for="fahrenheitTemp">Temperatura en Fahrenheit:</label>
+            <input type="number" id="fahrenheitTemp" required>
+        </div>
+
+        <div id="convertToFahrenheitFields" class="taskFields">
+            <label for="celsiusTemp">Temperatura en Celsius:</label>
+            <input type="number" id="celsiusTemp" required>
+        </div>
+
+        <div id="leapYearsFields" class="taskFields">
+            <label for="yearInput">Ingresa un año:</label>
+            <input type="number" id="yearInput" required>
+        </div>
+
+        <div id="duplicatesFields" class="taskFields">
+            <label for="duplicatesInput">Ingresa números separados por comas:</label>
+            <input type="text" id="duplicatesInput" placeholder="Ej: 1,2,3,2,4,5,1" required>
+        </div>
+
+        <button type="submit">Ejecutar Tarea</button>
+    </form>
+    <p id="result"></p> 
+
+    <script src="TATodo.js"></script> 
+</body>
+</html>
