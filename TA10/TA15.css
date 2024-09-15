@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+   .para,
+  .small-para {
+    font-size: 20px;
+    color: hsl(0, 0%, 0%);
+    font-weight: bold;
+    font-weight: 800;
+  }
+.parasmall-para {
+    font-size: 14px;
+    font-weight: 800;
+  }
+ /* p .para {
+    font-size: 22px;
+    font-weight: bold;
+  }*/
+  #cancel-button {
+    color: rgb(11, 1, 1);
+    font-size: 20px;
+  }
+   #confirm-button {
+    background-color: rgb(4, 106, 59);
+    color: rgb(233, 242, 236);
+    font-size: 20px;
+    font-weight: bold;
+  }
+  div .text-child {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-size: 14px;
+  }
+   
+ div .text {
+    color: rgb(0, 0, 0);
+    font-size: 22px;
+    font-weight: bold;
+  }
