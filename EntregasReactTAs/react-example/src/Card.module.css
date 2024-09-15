@@ -1,0 +1,33 @@
+.card1 {
+    background-color: rgb(17, 188, 245);
+    color: rgb(47, 6, 6);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card2 {
+    background-color: lightblue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+
+.card3 {
+    background-color: rgb(5, 39, 50);
+    color: rgb(130, 65, 65);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    max-width: 300px;
+    text-align: center;
+}
+

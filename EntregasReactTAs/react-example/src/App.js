@@ -4,7 +4,7 @@ import Card from './Card';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,9 +19,9 @@ function App() {
           Learn React
         </a>
         
-        <Card Titulo={"Card 1"} Descripcion={'Descripcion de la card 1'}Persona={' Ignacio'} className=""/>
-        <Card Titulo={"Card 2"} Descripcion={'Descripcion de la card 2'}Persona={' Martin'}/>    
-        <Card Titulo={"Card 3"} Descripcion={'Descripcion de la card 3'}Persona={' Agustin'}/>    
+        <Card Titulo={"Card 1"} Descripcion={'Descripcion de la card 1'}Persona={' Ignacio'} Estilo="lightcoral"/>
+        <Card Titulo={"Card 2"} Descripcion={'Descripcion de la card 2'}Persona={' Martin'} Estilo="lightgrey"/>    
+        <Card Titulo={"Card 3"} Descripcion={'Descripcion de la card 3'}Persona={' Agustin'} Estilo="blue"/>    
       
       </header>
     </div>
@@ -29,3 +29,4 @@ function App() {
 }
 
 export default App;
+

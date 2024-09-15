@@ -1,9 +1,17 @@
-function Card({Titulo,Descripcion,Persona,FechaI,FechaF}){
+import ESTILOS from "./Card.module.css";
+function Card({Titulo,Descripcion,Persona,FechaI,FechaF,Estilo}){
     return (
-        <div className="">
+        <div style={{
+            backgroundColor:Estilo,
+            borderRadius:50,
+            padding: 20,
+            margin: 14,
+            maxwidth: 300,
+            
+        }}>
             <h1>{Titulo}</h1>
-            <h6>{Descripcion}</h6>
-            <p>Asignado a: {Persona}</p>
+            <p>{Descripcion}</p>
+            <h6>Asignado a: {Persona}</h6>
             <p>{FechaI}</p>
             <p>{FechaF}</p>
         </div>
