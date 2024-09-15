@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Temperatura</title>
+</head>
+<body>
+    <h1>Conversor de Temperatura</h1>
+
+    
+    <form id="fahrenheitToCelsiusForm">
+        <label for="fahrenheitInput">Fahrenheit:</label>
+        <input type="number" id="fahrenheitInput" required>
+        <br>
+        <button type="submit">Convertir a Celsius</button>
+    </form>
+    <p id="celsiusResult" class="result"></p>
+
+    
+    <form id="celsiusToFahrenheitForm">
+        <label for="celsiusInput">Celsius:</label>
+        <input type="number" id="celsiusInput" required>
+        <br>
+        <button type="submit">Convertir a Fahrenheit</button>
+    </form>
+    <p id="fahrenheitResult" class="result"></p>
+
+    <script src="TATemp.js"></script> 
+</body>
+</html>
